@@ -1,5 +1,10 @@
-package org.example;public class Main {
+package org.example;
+
+import java.io.PrintStream;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        PrintStream sc=new PrintStream(System.out);
+        sc.println("hi");
     }
 }
